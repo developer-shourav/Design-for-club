@@ -13,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
     overflow-x: hidden;
-    
+
 
 }
 
@@ -184,11 +184,9 @@ body {
               Main Section(player gallery) Style START
 ===================================================================== */
 
-.main-section{
-    width:100%;
-    margin-left: 24px;
-  
-   
+.main-section {
+    width: 100%;
+    margin-left: 21px;
 }
 
 
@@ -199,36 +197,39 @@ body {
     grid-template-columns: repeat(3, 33%);
     grid-gap: 27px 0px;
     margin-top: 96px;
-     
+
 }
 
 .player {
-    width:280px;
+    width: 280px;
     height: 422px;
     box-shadow: 2px 2px 20px #dbdbdbe8;
     font-weight: 100;
     line-height: 20px;
-    padding:12px 12px 18px;
+    padding: 12px 12px 18px;
     transition: all .5s ease-in-out;
-   
+
 }
-.player:hover{
+
+.player:hover {
     transform: scale(1.09);
 
 }
 
 .playerPhoto {
-    width:100%;
+    width: 100%;
 }
 
-.playerName{
+.playerName {
     margin: 20px 0px;
 }
-.playerAbout{
+
+.playerAbout {
     font-size: 14px;
     color: #4e4b4bc5;
-   
+
 }
+
 /* ==================================================================
               Main Section(player gallery) Style END
 ===================================================================== */
@@ -238,25 +239,28 @@ body {
 /* ==================================================================
               Match Highlight section Style START
 ===================================================================== */
-.match-highlight{
+.match-highlight {
     display: flex;
     margin-top: 160px;
 }
 
-.highlight{
+.highlight {
     width: 32%;
     margin-left: 13%;
-    /* margin-top: 80px; */
+
 
 }
-.discription h1{
+
+.discription h1 {
     font-size: 45px;
 }
-.best-moment{
+
+.best-moment {
     width: 40%;
-  margin-left: 8%;
+    margin-left: 8%;
 }
-.best-moment img{
+
+.best-moment img {
     width: 100%;
 
 }
@@ -266,33 +270,69 @@ body {
                Match Highlight section  Style END
 ===================================================================== */
 
+/* ==================================================================
+               Location section  Style START
+===================================================================== */
 
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================
+                Location  Highlight section  Style END
+===================================================================== */
+
+.location{
+    text-align: center;
+    margin-top: 200px;
+}
+.location h2{
+    
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #2D25A0;
+}
+.location-area >iframe{
+    width:100%;
+    
+}
 
 /* ==================================================================
                    Web footer Style START
 ===================================================================== */
-footer{
-    margin:180px 0px 70px;
+footer {
+    margin: 180px 0px 70px;
 
 }
-.web-logo{
+
+.web-logo {
     width: 400px;
     margin: 0 auto;
 }
-.web-logo img{
+
+.web-logo img {
     width: 100%;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 
-.social-icons ,.copyrith {
-    text-align:center;
+.social-icons,
+.copyrith {
+    text-align: center;
 
 }
-.copyrith{
+
+.copyrith {
     color: #646464;
 }
-.icons{
+
+.icons {
     padding: 10px;
     margin-bottom: 10px;
     margin-right: 5px;
@@ -301,17 +341,14 @@ footer{
     border-radius: 50%;
 
 }
+
 .icons:hover {
     background-color: #2D25A0;
     color: #fff;
-    
+    transition: all .5s ease;
 
 }
 
 /* ==================================================================
                      Web footer Style END
 ===================================================================== */
-
-
-
-

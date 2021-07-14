@@ -268,4 +268,50 @@ body {
 
 
 
+/* ==================================================================
+                   Web footer Style START
+===================================================================== */
+footer{
+    margin:180px 0px 70px;
+
+}
+.web-logo{
+    width: 400px;
+    margin: 0 auto;
+}
+.web-logo img{
+    width: 100%;
+    margin-bottom:20px;
+}
+
+
+.social-icons ,.copyrith {
+    text-align:center;
+
+}
+.copyrith{
+    color: #646464;
+}
+.icons{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: #2D25A0;
+    border: 1px solid #2D25A0;
+    border-radius: 50%;
+
+}
+.icons:hover {
+    background-color: #2D25A0;
+    color: #fff;
+    
+
+}
+
+/* ==================================================================
+                     Web footer Style END
+===================================================================== */
+
+
+
 

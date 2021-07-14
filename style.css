@@ -270,38 +270,66 @@ body {
                Match Highlight section  Style END
 ===================================================================== */
 
+
+
+
+
+
 /* ==================================================================
                Location section  Style START
 ===================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-/* ==================================================================
-                Location  Highlight section  Style END
-===================================================================== */
-
-.location{
+.location {
     text-align: center;
     margin-top: 200px;
 }
-.location h2{
-    
+
+.titelExtra {
+
     margin-bottom: 50px;
     font-size: 45px;
     color: #2D25A0;
 }
-.location-area >iframe{
-    width:100%;
-    
+
+.location-area>iframe {
+    width: 100%;
+
 }
+/* ==================================================================
+                Location  Highlight section  Style END
+===================================================================== */
+
+
+
+
+
+
+
+/* ==================================================================
+                    Sponser section  Style Start
+===================================================================== */
+
+.sponsor-section{
+    margin-top: 200px;
+}
+.titelExtra{
+    text-align: center;
+     color: rgba(255, 124, 77, 0.966);
+     
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.sponsor{
+    width: 200px;
+}
+.sponsor img{
+    width: 100%;
+}
+/* ==================================================================
+                      Sponser section Style END
+===================================================================== */
+
 
 /* ==================================================================
                    Web footer Style START

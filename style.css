@@ -1,0 +1,131 @@
+/* ==================================================================
+                        Common Style START
+===================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 1360px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    
+}
+
+/* ==================================================================
+                        Common Style END
+===================================================================== */
+
+
+
+
+
+/* ==================================================================
+                        Nav Style START
+===================================================================== */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    font-size: 15px;
+    background-color: #2D25A0;
+    font-weight: 100;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: 145px;
+    color: #fff;
+
+
+}
+
+.nav-items:first-child {
+    padding-left: none;
+
+}
+
+.nav-item {
+    padding: 2px 20px;
+    color: #f1f1f1;
+}
+
+.login-button {
+    margin-right: 120px;
+
+
+
+}
+
+.logBtn {
+    width: 120px;
+    height: 42px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px 10px 24px;
+    margin-top: -6px;
+}
+
+.loginIcon {
+    width: 33%;
+}
+
+.logTxt {
+    position: relative;
+    top: -7px;
+    left: 2px;
+}
+
+/* ==================================================================
+                        Nav Style END
+===================================================================== */
+
+
+
+/* ==================================================================
+                        Top section Style START
+===================================================================== */
+.topSection {
+    width: 100%;
+    background-color: #2D25A0;
+    display: flex;
+    
+}
+
+.pageTitel {
+    width: 40%;
+    color: #fff;
+    margin-left: 12%;
+    margin-top: 145px;
+}
+
+.main-titel {
+    font-size: 55px;
+    font-weight: bolder;
+    width: 76%;
+    line-height: 79px;
+}
+
+.pageThumbnail {
+    width: 40%;
+}
+
+.pageThumbnail img {
+    width: 100%;
+}
+.watch-live-button{
+    color: #fff;
+    background-color: #E02C6D;
+    border: none;
+    padding: 12px 26px;
+    margin-top: 25px;
+}
+
+/* ==================================================================
+                        Top section Style END
+===================================================================== */

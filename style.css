@@ -8,10 +8,12 @@
 }
 
 body {
-    width: 1366px;
+    width: 1360px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
+    
 
 }
 
@@ -53,6 +55,7 @@ body {
     padding: 2px 20px;
     color: #f1f1f1;
 }
+
 .nav-item:hover {
     color: #E02C6D;
     transition: all .5s ease;
@@ -116,10 +119,12 @@ body {
     width: 76%;
     line-height: 79px;
 }
-.different-color{
-    color:#E02C6D;
+
+.different-color {
+    color: #E02C6D;
 }
-.main-titel:hover{
+
+.main-titel:hover {
     color: #3DBAFD;
     text-shadow: 1px 1px #e4e4e4ea;
 }
@@ -133,12 +138,14 @@ body {
     width: 95%;
     margin-top: 86px;
     margin-right: 5%;
-     transition: all .3s ease-in;
+    transition: all .3s ease-in;
 }
+
 .pageThumbnail img:hover {
-   transform: scale(1.1);
-  
+    transform: scale(1.1);
+
 }
+
 .watch-live-button {
     color: #fff;
     background-color: #E02C6D;
@@ -146,14 +153,16 @@ body {
     padding: 12px 29px;
     margin-top: 20px;
 }
+
 .watch-live-button:hover {
-    
+
     background-color: #3DBAFD;
     transition: all .5s ease;
-    
+
 }
-.watch-live-button:hover >a{
-    color:#db0533;
+
+.watch-live-button:hover>a {
+    color: #db0533;
     font-weight: bolder;
 
 }
@@ -165,4 +174,61 @@ body {
 
 /* ==================================================================
                         Top section Style END
+===================================================================== */
+
+
+
+
+
+/* ==================================================================
+              Main Section(player gallery) Style START
+===================================================================== */
+
+.main-section{
+    width:100%;
+    margin-left: 24px;
+  
+   
+}
+
+
+.players-gallery {
+    display: grid;
+    width: 1050px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 27px 0px;
+    margin-top: 96px;
+     
+}
+
+.player {
+    width:280px;
+    height: 422px;
+    box-shadow: 2px 2px 20px #dbdbdbe8;
+    font-weight: 100;
+    line-height: 20px;
+    padding:12px 12px 18px;
+    transition: all .5s ease-in-out;
+   
+}
+.player:hover{
+    transform: scale(1.09);
+
+}
+
+.playerPhoto {
+    width:100%;
+}
+
+.playerName{
+    margin: 20px 0px;
+}
+.playerAbout{
+    font-size: 14px;
+    color: #4e4b4bc5;
+   
+}
+/* ==================================================================
+              Main Section(player gallery) Style END
 ===================================================================== */
